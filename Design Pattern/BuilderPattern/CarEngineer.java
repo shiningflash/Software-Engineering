@@ -14,6 +14,7 @@ public class CarEngineer {
 	
 	public void makeCar() {
 		this.carBuilder.buildCarBody();
+		this.carBuilder.buildCarEngine();
 	}
 
 }
