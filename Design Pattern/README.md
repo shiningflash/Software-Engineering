@@ -20,3 +20,8 @@ Proxy pattern is a `structural design pattern` that use a proxy class to wrap th
 - To present a local representation of system that is not in the same physical or virtual spaces
 - Provides powerful means of interactions
 - Proxy classes are robust and can make the system more secure and less resource intensive.
+
+### Decorator Pattern
+
+Decorator pattern is a `structural design pattern` allows a user to add new functionalities to an existing objects without altering its structure. This pattern creates a decorator class which wraps an original class and provides additional functionalities keeping class method signature intact.
+
