@@ -3,6 +3,7 @@ package ChainOfResponsibilityPattern;
 public class TestLogger {
 
     public static AbstractLogger getChainOfLogger() {
+
         AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.ERROR);
         AbstractLogger fileLogger = new FileLogger(AbstractLogger.DEBUG);
         AbstractLogger consoleLogger = new ConsoleLogger(AbstractLogger.INFO);
@@ -14,6 +15,7 @@ public class TestLogger {
     }
 
     public static void main(String[] args) {
+
         AbstractLogger loggerChain = getChainOfLogger();
 
         loggerChain.logMessage(AbstractLogger.INFO, "This is an information.");
@@ -23,6 +25,7 @@ public class TestLogger {
         System.out.println();
 
         loggerChain.logMessage(AbstractLogger.ERROR, "This is an error information.");
+
     }
 
 }
