@@ -37,3 +37,9 @@ Decorator pattern is a `structural design pattern` allows a user to add new func
 ### Template Method Pattern
 
 Template method pattern is a `behavioral design pattern` that allows you to define a skeleton of an algorithm in a base class and let subclasses override the steps without changing the overall algorithm's structure. So, actually template pattern is used when two or more implementations of a similar algorithm exists.
+
+### Chain of Responsibility Pattern
+
+Chain of Responsibility is a `behavioral design pattern` that creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request.
+
+Each receiver contains reference to another receiver. If one object can not handle the request then it passes to next receiver and so on.
