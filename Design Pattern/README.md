@@ -10,7 +10,7 @@
 
 Composite pattern is a `structural design pattern` that lets you compose objects into tree structure and then work with this structure as if they were individual objects. It bascically describes groups of objects that can be treated as the same way as a single instance of the same object type.
 
-### Proxy Design Pattern
+### Proxy Pattern
 
 `Proxy` means 'in place of' or 'on behalf of'. Proxies are called wrappers. For example, a credit card or simply a check is a proxy for what is in our bank account.
 
@@ -29,6 +29,7 @@ Proxy pattern is a `structural design pattern` that use a proxy class to wrap th
 
 Decorator pattern is a `structural design pattern` allows a user to add new functionalities to an existing objects without altering its structure. This pattern creates a decorator class which wraps an original class and provides additional functionalities keeping class method signature intact.
 
+--------------------------
 
 ## Behavioral Design Pattern
 
@@ -43,3 +44,7 @@ Template method pattern is a `behavioral design pattern` that allows you to defi
 Chain of Responsibility is a `behavioral design pattern` that creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request.
 
 Each receiver contains reference to another receiver. If one object can not handle the request then it passes to next receiver and so on.
+
+### State Pattern
+
+State design pattern is a `behavioral design pattern` that allows an object to change it behavior when its internal state changes.
