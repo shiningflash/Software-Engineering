@@ -26,7 +26,7 @@ Adapter pattern is a `structural design pattern` which basically works as wrappe
 
 ### [Composite Pattern](https://github.com/shiningflash/Software-Engineering/tree/master/Design%20Pattern/CompositePattern)
 
-Composite pattern is a `structural design pattern` that lets you compose objects into tree structure and then work with this structure as if they were individual objects. It bascically describes groups of objects that can be treated as the same way as a single instance of the same object type.
+Composite pattern is a `structural design pattern` that lets you compose objects into tree structure and then work with this structure as if they were individual objects. It basically describes groups of objects that can be treated as the same way as a single instance of the same object type.
 
 ### [Proxy Pattern](https://github.com/shiningflash/Software-Engineering/tree/master/Design%20Pattern/ProxyPattern)
 
